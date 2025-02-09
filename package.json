@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "qudesdk": "npm run build > /dev/null 2>&1 && node --no-deprecation dist/examples/interact-agent.js"
+    "aptixsdk": "npm run build > /dev/null 2>&1 && node --no-deprecation dist/examples/interact-agent.js"
   },
   "author": "aptix",
   "license": "MIT",
