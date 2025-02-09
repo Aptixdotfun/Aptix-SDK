@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-const API_URL = "https://api.qude.ai/api/agent";
+const API_URL = "https://api.aptix.ai/api/agent";
 
 export async function interactWithAgent(agentName: string, message: string): Promise<string> {
   try {
