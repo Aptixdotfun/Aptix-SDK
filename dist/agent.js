@@ -7,9 +7,9 @@ exports.interactWithAgent = interactWithAgent;
 exports.getAgentDetails = getAgentDetails;
 const node_fetch_1 = __importDefault(require("node-fetch"));
 /** API URL */
-const API_URL = "https://api.qude.ai/api/agent";
+const API_URL = "https://api.aptix.ai/api/agent";
 /**
- * Interact with a QudeAI agent.
+ * Interact with an Aptix AI agent.
  * @param agentName - The name of the agent.
  * @param message - The message to send to the agent.
  * @returns The agent's reply.
@@ -33,7 +33,7 @@ async function interactWithAgent(agentName, message) {
     }
 }
 /**
- * Get details of a QudeAI agent.
+ * Get details of an Aptix AI agent.
  * @param agentName - The name of the agent.
  * @returns The agent's details.
  */
