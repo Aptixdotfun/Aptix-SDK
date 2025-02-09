@@ -1,5 +1,5 @@
 {
-  "name": "qude-sdkv1",
+  "name": "aptix-sdkv1",
   "version": "1.0.0",
   "description": "Terminal-based SDK for interacting with QudeAI agents",
   "main": "dist/index.js",
